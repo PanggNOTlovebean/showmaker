@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-  <BarChart></BarChart>
+  <!-- <BarChart></BarChart> -->
+  <my-bar-chart-vue></my-bar-chart-vue>
   <!-- <word-cloud></word-cloud> -->
+  <!-- <WordCloud></WordCloud> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import BarChart from './components/BarChart.vue'
-import WordCloud from './components/WordCloud.vue'
+import MyBarChartVue from './components/MyBarChart.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld,BarChart,WordCloud
+    HelloWorld,BarChart,MyBarChartVue
   }
 }
 </script>
